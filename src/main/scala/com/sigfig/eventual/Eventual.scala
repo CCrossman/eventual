@@ -10,7 +10,7 @@ import scala.util.{Failure, Success, Try}
   * An {{{Eventual}}} instance is a value that is known and fixed,
   * or the value is going to be calculated at a later date, or the
   * latter will be attempted and failed. This means that {{{Eventual}}}
-  * has three states represented in a monadic way.
+  * has three states represented.
   *
   * Unlike {{{Future}}}, an {{{Eventual}}} does not "fail hard" when
   * it enters a failure state. Instead, it must be processed differently.
